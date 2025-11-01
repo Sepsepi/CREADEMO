@@ -77,7 +77,7 @@ export default function Home() {
         <title>CREA DDF Property Search - Find Your Dream Home</title>
         <meta name="description" content="Search MLS listings across Ontario. Find homes, condos, and properties for sale." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </Head>
 
       <div className="min-h-screen bg-gray-50">
