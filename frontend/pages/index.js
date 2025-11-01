@@ -95,24 +95,24 @@ export default function Home() {
               </div>
 
               {stats && (
-                <div className="hidden md:flex items-center space-x-6 text-sm">
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-blue-600">
+                <div className="hidden md:flex items-center gap-4">
+                  <div className="flex flex-col items-center bg-blue-50 px-5 py-3 rounded-lg min-w-[110px]">
+                    <div className="text-3xl font-bold text-blue-600">
                       {stats.totalListings}
                     </div>
-                    <div className="text-gray-600">Active Listings</div>
+                    <div className="text-xs text-gray-600 font-medium">Active Listings</div>
                   </div>
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-green-600">
+                  <div className="flex flex-col items-center bg-green-50 px-5 py-3 rounded-lg min-w-[110px]">
+                    <div className="text-3xl font-bold text-green-600">
                       ${(stats.averagePrice / 1000).toFixed(0)}K
                     </div>
-                    <div className="text-gray-600">Avg Price</div>
+                    <div className="text-xs text-gray-600 font-medium">Avg Price</div>
                   </div>
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-purple-600">
+                  <div className="flex flex-col items-center bg-purple-50 px-5 py-3 rounded-lg min-w-[110px]">
+                    <div className="text-3xl font-bold text-purple-600">
                       {stats.citiesCount}
                     </div>
-                    <div className="text-gray-600">Cities</div>
+                    <div className="text-xs text-gray-600 font-medium">Cities</div>
                   </div>
                 </div>
               )}
