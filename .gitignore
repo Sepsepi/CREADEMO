@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Production
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.tgz
+.npm
+.eslintcache
+.cache/
+
+# Docker
+docker-compose.override.yml
+
+# Database
+*.sql.backup
+*.db
